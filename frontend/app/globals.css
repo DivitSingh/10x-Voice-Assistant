@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --lk-va-bar-width: 72px;
+    --lk-control-bar-height: unset;
+}
+
+html {
+    --lk-bg: #e3f2fd;
+}
+
+.agent-visualizer > .lk-audio-bar {
+    width: 72px;
+}
+
+.lk-agent-control-bar {
+    @apply border-t-0 p-0 h-min mr-4;
+}
+
+.lk-disconnect-button {
+    @apply h-[36px] hover:bg-[#1565c0] hover:text-[white] bg-[#1976d2] border-[#1565c0];
+}
